@@ -47,6 +47,10 @@ header{
     padding: 30px 0px;
 }
 
+.mirror-box{
+    flex-direction: row-reverse;
+}
+
 /* background colors */
 
 .bg-gold{
