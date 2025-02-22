@@ -8,13 +8,13 @@
 
 header{
     background-color: rgb(156, 194, 208);
+    padding: 10px;
 }
 
 .container{
     max-width: 800px;
     margin: 0 auto;
     display: flex;
-    padding: 10px 0px;
 }
 
 .left-col{
@@ -128,17 +128,32 @@ header{
 
 /* footer */
 
-.container3{
-    max-width: 800px;
-    margin: 0 auto;
+footer{
+    padding-top: 20px;
+}
+
+.content{
+    width: 100%;
+    padding: 15px 0px;
     display: flex;
-    padding: 30px 0px;
 }
 
 .space-between {
     justify-content: space-between;
 }
 
-.bg-pink2{
+.bg-footer-pink{
     background-color: rgb(255, 192, 202);
+}
+
+.left-button{
+    max-width: 10%;
+    padding: 5px;
+    text-align: center;
+}
+
+.right-button{
+    max-width: 10%;
+    padding: 5px;
+    text-align: center;
 }
